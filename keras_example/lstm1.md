@@ -1,6 +1,8 @@
-ChadCool原创 转载请注明出处
+#keras 练习1 ---- 使用LSTM对IMDB的分类进行预测(many to one 的RNN)
 
-https://chadCool.github.io/keras_example/lstm1
+ChadCool原创 转载请注明出处
+[https://chadCool.github.io/keras_example/lstm1](https://chadCool.github.io/keras_example/lstm1)
+
 ----------------------------
 
 数据集来自 IMDB 的 25,000 条电影评论，以情绪（正面/负面）标记。每一条评论已经过预处理，并编码为词索引（整数）的[序列](https://keras.io/zh/preprocessing/sequence/)表示。为了方便起见，将词按数据集中出现的频率进行索引，例如整数 3 编码数据中第三个最频繁的词。这允许快速筛选操作，例如：「只考虑前 10,000 个最常用的词，但排除前 20 个最常见的词」。
